@@ -1,0 +1,56 @@
+.table{
+    margin-top: 50px;
+    overflow: scroll;
+    height: 500px;
+    color:red;
+    background-color: #fff;
+    border: 4px solid black;
+    border-left: 10px solid black;
+}
+
+thead{
+     position: sticky;
+    top: 0;
+    background-color:black !important;
+    font-weight: 80;
+     color:green;
+}
+
+
+.users {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+}
+.users td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.users th {
+  background: darkblue;
+  color: white;
+
+}
+.users td,
+.users th {
+  text-align: left;
+  padding: 5px 10px;
+}
+.users tr:nth-child(even) {
+  background: lightblue;
+}
+
+/* Column widths are based on these cells */
+.row-ID {
+  width: 55%;
+}
+.row-name {
+  width: 15%;
+}
+.row-job {
+  width: 15%;
+}
+.row-email {
+  width: 15%;
+}
